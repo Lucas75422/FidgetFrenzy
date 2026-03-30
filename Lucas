@@ -1,0 +1,48 @@
+{\n  "name": "fidget-frenzy",\n  "version": "1.0.0",\n  "private": true,\n  "scripts": {\n    "dev": "next dev",\n    "build": "next build",\n    "start": "next start"\n  },\n  "dependencies": {\n    "next": "latest",\n    "react": "latest",\n    "react-dom": "latest",\n    "stripe": "latest"\n  },\n  "devDependencies": {\n    "typescript": "latest",\n    "@types/react": "latest",\n    "@types/node": "latest"\n  }\n}
+# FidgetFrenzy Store
+
+## Project Description
+FidgetFrenzy is an online store dedicated to providing a wide variety of fidget toys and tools. Our goal is to help individuals of all ages discover the benefits of fidgeting, whether for focus, stress relief, or sensory stimulation. From fidget spinners to stress balls, we have something for everyone.
+
+## Setup Instructions
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Lucas75422/FidgetFrenzy.git
+   cd FidgetFrenzy
+npm install
+npm start
+'use strict';
+
+module.exports = {
+  reactStrictMode: true,
+  images: {
+    domains: ['example.com'],
+  },
+  env: {
+    CUSTOM_ENV_VAR: 'value',
+  },
+};
+{\n  "compilerOptions": {\n    "target": "es6",\n    "module": "commonjs",\n    "strict": true,\n    "esModuleInterop": true,\n    "skipLibCheck": true,\n    "forceConsistentCasingInFileNames": true\n  },\n  "include": [\n    "src/**/*"\n  ],\n  "exclude": [\n    "node_modules"\n  ]\n}
+# Node.js
+node_modules/
+
+# Next.js
+.next/
+
+# Environment Variables
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+# .env.example configuration for FidgetFrenzy
+
+# Stripe API Keys
+STRIPE_PUBLIC_KEY=pk_test_XXXXXXXXXXXXXXXXXXXX
+STRIPE_SECRET_KEY=sk_test_XXXXXXXXXXXXXXXXXXXX
+
+# Database configuration
+DB_HOST=localhost
+DB_PORT=5432
+DB_USER=your_database_user
+DB_PASSWORD=your_database_password
+DB_NAME=your_database_name
